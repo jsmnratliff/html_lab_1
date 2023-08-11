@@ -1,0 +1,40 @@
+
+#site-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* more flexbox properties here */
+    padding: 20px;
+    margin: 20px;
+    background-color: lightskyblue;
+}
+.sidebar {
+        background-color: plum;
+        margin: 10px;
+        padding: 10px;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+}
+#btn{
+        display: flex;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+}
+#donate {
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+}
+
+.flext-container{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: lightskyblue;
+}
